@@ -75,6 +75,27 @@ Knowing the exact fonts and colors in the design:
 | **Product Owner** | Defines project needs, manages features |
 | **Scrum Master** | Leads team meetings, removes blockers |
 
+## 🧩 UI Component Patterns
+
+These are the main reusable components we'll build:
+
+### 🔝 Navbar
+- Logo
+- Search bar
+- User links
+- Works on all screen sizes
+
+### 🏠 Property Card
+- Property image
+- Title, price, location
+- Favorite button
+- Responsive layout
+
+### 🔻 Footer
+- Site links (About, Contact)
+- Social media icons
+- Copyright
+
 
 
 
