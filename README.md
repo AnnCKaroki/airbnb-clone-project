@@ -39,6 +39,30 @@ A clean and easy-to-use design helps people:
 - Trust the system more
 - Complete bookings without confusion
 
+## 🎨 Figma Design Specifications
+
+### 🎨 Color Styles
+- **Primary Color:** `#FF5A5F`
+- **Secondary Color:** `#008489`
+- **Background:** `#FFFFFF`
+- **Main Text:** `#222222`
+- **Subtext:** `#717171`
+
+### ✍️ Typography
+- **Main Font:** Circular
+  - Font weight: Medium (500)
+  - Font size: 16px
+- **Headings:** Circular Bold (700), sizes 24px–32px
+- **Body Text:** Circular Book (400), 14px
+
+### 🧠 Why Design Specs Matter
+
+Knowing the exact fonts and colors in the design:
+- Helps match the mockup
+- Makes the UI consistent
+- Speeds up development
+
+
 
 
 
