@@ -96,7 +96,98 @@ These are the main reusable components we'll build:
 - Social media icons
 - Copyright
 
-**Below are answers for PRroDev Backend**
+
+
+**BELOW ARE ANSWERS FOR THE PRODEV BACKEND TASK**
+
+
+
+## Project Description
+
+This is a clone of the Airbnb platform built to learn and practice full-stack development using modern tools and workflows.
+
+**Tech Stack:**
+- Django (Backend)
+- PostgreSQL/MySQL (Database)
+- GraphQL (API Queries)
+- Docker
+- GitHub Actions
+
+
+## Team Roles
+
+| Role              | Responsibility |
+|-------------------|----------------|
+| Project Manager   | Coordinates the project and team |
+| Frontend Developer| Builds the user interface |
+| Backend Developer | Creates server logic and APIs |
+| Designer          | Designs UI/UX mockups |
+| QA / Tester       | Tests features and reports bugs |
+| DevOps Engineer   | Handles deployment and CI/CD |
+| Product Owner     | Defines features and priorities |
+| Scrum Master      | Facilitates agile processes |
+
+
+## Technology Stack
+
+| Technology   | Purpose |
+|--------------|---------|
+| Django       | Web framework for backend and APIs |
+| PostgreSQL/MySQL | Stores all application data |
+| GraphQL      | API tool to request only needed data |
+| Docker       | Creates reusable app environments |
+| GitHub Actions | Automates testing and deployment |
+
+
+## Database Design
+
+| Entity     | Sample Fields |
+|------------|---------------|
+| Users      | id, name, email, password |
+| Properties | id, title, location, price, host_id |
+| Bookings   | id, user_id, property_id, check_in, check_out |
+| Reviews    | id, user_id, property_id, rating, comment |
+| Payments   | id, booking_id, amount, status |
+
+**Relationships:**
+- A user can have many bookings.
+- A booking belongs to one property.
+- A property can have many reviews.
+- A payment is linked to a booking.
+
+
+## Feature Breakdown
+
+| Feature            | Description |
+|--------------------|-------------|
+| User Management    | Register, log in, and manage profiles |
+| Property Listings  | Browse and search available properties |
+| Booking System     | Book properties for specific dates |
+| Review System      | Add and read property reviews |
+| Payment Gateway    | Secure booking payments |
+
+
+## API Security
+
+| Security Feature   | Purpose |
+|--------------------|---------|
+| Authentication     | Verifies user identity |
+| Authorization      | Controls what users can access |
+| Rate Limiting      | Prevents system overloads |
+| Input Validation   | Protects against bad or malicious data |
+
+Security helps protect user data, ensure safe payments, and prevent abuse.
+
+
+## CI/CD Pipeline
+
+**CI/CD** (Continuous Integration and Deployment) helps automate testing and deployment when code changes.
+
+**Tools:**
+- GitHub Actions – Automate tests and deployment steps
+- Docker – Consistent app environments
+
+CI/CD improves speed, reliability, and collaboration in development.
 
 
 
