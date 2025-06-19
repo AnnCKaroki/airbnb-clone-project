@@ -62,8 +62,18 @@ Knowing the exact fonts and colors in the design:
 - Makes the UI consistent
 - Speeds up development
 
+## 👥 Project Roles and Responsibilities
 
-
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Keeps track of timelines, coordinates team work |
+| **Frontend Developers** | Build the UI, make it responsive |
+| **Backend Developers** | Create APIs, connect to the database |
+| **Designers** | Make mockups, plan user experience |
+| **QA/Testers** | Test the site, find and report bugs |
+| **DevOps Engineers** | Handle deployment, server setup, CI/CD |
+| **Product Owner** | Defines project needs, manages features |
+| **Scrum Master** | Leads team meetings, removes blockers |
 
 
 
